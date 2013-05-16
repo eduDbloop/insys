@@ -18,12 +18,22 @@ ul, ol, dl { /* Aufgrund von Abweichungen zwischen verschiedenen Browsern empfie
 	padding: 0;
 	margin: 0;
 }
-h1, h2, h3, h4, h5, h6, p {
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;	 /* Durch Verschieben des oberen Rands wird das Problem behoben, dass Ränder aus dem zugehörigen div-Tag geraten können. Der übrig gebliebene untere Rand hält ihn getrennt von allen folgenden Elementen. */
+	padding-right: 15px;
+	padding-left: 15px; /* Durch Hinzufügen der Auffüllung zu den Seiten der Elemente innerhalb der div-Tags anstelle der div-Tags selbst entfallen jegliche Box-Modell-Berechnungen. Alternativ kann auch ein verschachteltes div-Tag mit seitlicher Auffüllung verwendet werden. */
+	font-family: Quicksand;
+	min-width:30em;
+}
+
+p {
 	margin-top: 0;	 /* Durch Verschieben des oberen Rands wird das Problem behoben, dass Ränder aus dem zugehörigen div-Tag geraten können. Der übrig gebliebene untere Rand hält ihn getrennt von allen folgenden Elementen. */
 	padding-right: 15px;
 	padding-left: 15px; /* Durch Hinzufügen der Auffüllung zu den Seiten der Elemente innerhalb der div-Tags anstelle der div-Tags selbst entfallen jegliche Box-Modell-Berechnungen. Alternativ kann auch ein verschachteltes div-Tag mit seitlicher Auffüllung verwendet werden. */
 	font-family: Quicksand;
 }
+
 .estilotextTitel {
 	font-family: Quicksand;
 	font-size: 32px;
@@ -108,14 +118,16 @@ a.link:hover {
 */
 .content {
 	position: absolute;
-	top: 397px;
+	top: 400px;
 	padding-top: 10px;
 	padding-right: 0;
 	padding-bottom: 10px;
 	padding-left: 0;
-	right: 52%;
 	left: 5%;
+	/*right: 52%; */
 	height: 355px;
+	max-width: 30em;
+	min-width: 20em;
 }
 
 /* ~~ Dieser gruppierte Selektor gibt die Listen im .content-Bereich an. ~~ */
