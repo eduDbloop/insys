@@ -1,0 +1,13 @@
+/* CSS Document */
+
+#apDiv1 {
+	position: absolute;
+	left: 18px;
+	top: 19px;
+	width: 481px;
+	height: 223px;
+	z-index: 1;
+}
+.etiqueta {
+	font-family: Arial, Helvetica, sans-serif;
+}
