@@ -16,6 +16,20 @@
 	
 			mysql_query("INSERT INTO spuelen(Hersteller, Model, Lange, Breite, Eckradius) VALUES ('$hersteller[$a]','$model[$a]','$laenge[$a]','$breite[$a]','$eckradius[$a]')");		
 	}
-
-	
 ?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<script language="javascript">
+if(confirm("Möchten Sie wieder zur Startseite?")) { document.location = 'http://www.insystec.eu';
+} else {
+	document.location = 'http://www.insystec.eu/dbspule';
+}
+
+</script>
+<body onLoad="index.php">
+</body>
+</html>

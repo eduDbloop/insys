@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link href="CSS/styles.css" rel="stylesheet" type="text/css"/>
-<title>InSYS DB</title>
+<title>InSYS Kochfelder DB</title>
 </head>
 
 <script language="javascript">
