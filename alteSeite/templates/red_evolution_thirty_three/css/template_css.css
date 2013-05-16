@@ -1,0 +1,613 @@
+/* CSS Document */
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	height: 100%;
+}
+
+body {
+	background: #DDDDDD;        
+	color: #333333;
+	margin: 10px 0px 0px 0px;
+	padding: 0;
+}
+
+ul
+{
+	margin: 0px 0px 0px 7px;
+	padding: 0;
+	list-style: none;
+}
+
+li
+{
+	line-height: 15px;
+	padding-left: 15px;	
+	padding-top: 0px;
+	background-image: url(../images/arrow.png);
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+	font-size: 11px;
+	text-align: left;
+}
+
+td {
+	text-align: left;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	text-align: left;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+h3 {
+	text-align: left;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+h4 {
+	text-align: left;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+/* Joomla core stuff */
+a:link, a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #994400;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+	color: #444444;
+}
+
+a:active {
+	font-weight: bold;
+	color: #444444;
+}
+
+a.readon:link, a.readon:visited {
+	color: #994400;
+}
+
+a.readon:hover {
+	color: #444444;
+}
+
+table.contentpaneopen {
+	width: 100%;
+	padding: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+}
+
+table.contentpaneopen td {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 13px;
+	padding: 0px 2px 0px 0px;
+}
+
+table.contentpane {
+	width: 100%;
+	padding: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+}
+
+table.contentpane td {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 13px;
+}
+
+
+table.contentpaneopen td.contentheading, table.contentpane td.contentheading {
+	text-align: left;
+	line-height: 24px;
+	font-weight: normal;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px 0px 10px 0px;
+	color: #666666;
+	background: #FFFFFF;
+}
+
+table.contentpaneopen td.componentheading, table.contentpane td.componentheading {
+	text-align: left;
+	line-height: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-indent: 8px;
+}
+
+.button {
+	float: left;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	border: 1px solid #cccccc;
+	width: auto;
+	background: url(../images/button_bg.png) repeat-x;
+	padding: 0px 10px;
+	line-height: 20px;
+	margin: 3px;
+	text-decoration: none;
+	 font-family: Arial, Helvetica, sans-serif;
+}
+
+.back_button {
+	float: left;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	border: 1px solid #cccccc;
+	width: auto;	
+	background: url(../images/button_bg.png) repeat-x;
+	padding: 0px 10px;
+	line-height: 20px;
+	margin: 3px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.latestnews { 
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a.latestnews:link, a.latestnews:visited { 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a.latestnews:hover { 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputbox {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.componentheading {
+	text-align: left;
+	line-height: 26px;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	background: #FFFFFF;
+}
+
+.contentpagetitle {
+}
+
+table.searchinto {
+	width: auto;
+}
+
+table.searchintro td {
+	font-weight: bold;
+}
+
+table.moduletable {
+	width: auto;
+	padding: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+div.moduletable {
+	padding: 0;
+	margin-bottom: 2px;
+	text-align: left;
+	font-size: 11px;
+	font-family: Arial,Helvetica,sans-serif;
+	clear: both;
+}
+
+table.moduletable th, div.moduletable h3 {
+	text-align: left;
+	padding-left: 12px;
+	height: 25px;
+	line-height: 25px;
+	font-weight: normal;
+	font-size: 12px;
+	font-family: Arial,Helvetica,sans-serif;
+	margin: 2px 0 5px 0; 
+	background: #EEEEEE url(../images/subhead_bg.gif) no-repeat left;
+	color: #666666;
+}
+
+table.moduletable td {
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table.pollstableborder td {
+}
+
+.sectiontableheader {
+}
+
+.sectiontablefooter {
+
+}
+
+.sectiontableentry1 {
+}
+
+.sectiontableentry2 {
+}
+
+.small {
+	font-size: 10px;
+}
+
+.createdate {
+	height: 15px;
+	padding-bottom: 10px;
+	font-size: 10px;
+}
+
+.modifydate {
+	height: 15px;
+	padding-top: 10px;
+	font-size: 10px;
+}
+
+table.contenttoc {
+}
+
+
+table.contenttoc td {
+}
+
+table.contenttoc th {
+}
+
+a.mainlevel:link, a.mainlevel:visited {
+	display: block;
+	background: #EEEEEE url(../images/menu_bg.gif) no-repeat;
+	line-height: 23px;
+	height: 23px;
+	width: 160px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #AA5500;
+	text-align: left;
+	text-indent: 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.mainlevel:hover {
+	display: block;
+	background: #999999 url(../images/menu_bg2.gif) no-repeat;
+	line-height: 23px;
+	height: 23px;
+	text-indent: 14px;
+	width: 160px;
+	background-position: 0px -23px;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+a.mainlevel#active_menu {
+	display: block;
+	background: #AA5500 url(../images/menu_bg.gif) no-repeat;
+	line-height: 23px;
+	height: 23px;
+	text-indent: 14px;
+	width: 160px;
+	background-position: 0px -23px;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+a.mainlevel#active_menu:hover {
+	display: block;
+	background: #AA5500 url(../images/menu_bg.gif) no-repeat;
+	line-height: 23px;
+	height: 23px;
+	text-indent: 14px;
+	width: 160px;
+	background-position: 0px -23px;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+a.sublevel:link, a.sublevel:visited {
+	vertical-align: middle;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: left;
+	color: #666666;
+	background: #EEEEEE;
+	text-decoration: none;
+}
+
+a.sublevel:hover {
+	color: #000000;
+	background: #EEEEEE;
+}
+
+a.sublevel#active_menu {
+	color: #000000;
+	background: #EEEEEE;
+}
+
+.highlight {
+	background-color: Yellow;
+	color: Blue;
+	padding: 0;
+}
+.code {
+	background-color: #DDD;
+	color: #404040;
+	border: 1px solid #BBB;
+}
+
+div.mosimage {
+	border: 1px solid #CCC;
+}
+
+.mosimage {
+	border: 1px solid #CCCCCC;
+	margin: 5px;
+}
+
+.mosimage_caption {
+	margin-top: 2px;
+	padding: 1px 2px;
+	text-transform: none;
+	font-size: 10px;
+	border-top: 1px solid #CCCCCC;
+}
+
+form {
+/* removes space below form elements */
+	margin: 0;
+	padding: 0;
+}
+
+span.article_seperator {
+	display: block;
+	height: 1.5em;
+	border: 0;
+}
+
+
+/* --template layout css-- */
+
+#wrapper { 
+	padding: 0px;
+	margin: 0px;
+	background: #FFFFFF;
+	color: #333333;
+	height: auto;
+	width: 762px;
+}
+
+
+/* border in the "wrapper inner", goes around the content.  The footer finishes the border off at the bottom of the page, as this does not have a bottom border */
+
+#wrapper_inner { 
+	padding: 0px;
+	margin: 0px;
+	background: #FFFFFF;
+	color: #333333;
+	height: auto;
+	border-top: 1px solid #666666;
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+	float: left;
+}
+
+#wrapper_inner  { 
+	width: 762px; 
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width: 760px;
+} 
+  /* CSS1 UAs should see and use 2nd width */
+
+html>body #wrapper_inner { width: 760px }
+
+
+#container {
+	display: block;
+	background: #FFFFFF;
+	color: #333333;
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	width: 760px;
+}
+
+#container_inner {
+	float: left;
+	display: block;
+	background: #FFFFFF;
+	color: #333333;
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+}
+
+
+/* header for the website */
+
+#header { 
+	padding: 0px;
+	margin: 0px;
+	height: 100px;
+	width: 760px;
+	background: #CCCCCC url(../images/header.jpg) no-repeat;
+	color: #333333;
+}
+
+
+/* content */
+
+#content { 
+	margin: 0px;
+	color: #333333;
+	padding: 1px 0px 0px 0px;
+	width: 760px; 
+	float: left;
+	background: #FFFFFF url(../images/horizontal_bg.gif) top repeat-x;
+}
+
+#content_bg { 
+	margin: 0px;
+	color: #333333;
+	padding: 0px;
+	background: #FFFFFF url(../images/main_bg.gif) repeat-y;
+	width: 760px;
+	float: left;
+}
+
+
+/* left menu navigation */
+
+#left_menu { 
+	float: left;
+	margin: 0px;
+	padding: 0px 5px 10px 5px;
+	background: #EEEEEE;
+	color: #333333;
+}
+
+#left_menu  { 
+	width: 170px; 
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width: 160px;
+} 
+  /* CSS1 UAs should see and use 2nd width */
+
+html>body #left_menu { width: 160px }
+
+
+/* main container */
+
+#main_container { 
+	margin: 0px;
+	padding: 5px 5px 5px 5px;
+	background: #FFFFFF;
+	color: #333333;
+	float: right;
+}
+
+#main_container  { 
+	width: 589px; 
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width: 579px;
+} 
+  /* CSS1 UAs should see and use 2nd width */
+
+html>body #main_container { width: 579px }
+
+
+/* Content header image, need to replace this image for your own site. */
+
+#content_header { 
+	float: right;
+	margin: 0px;;
+	padding: 0px;
+	background: #EEEEEE url(../images/content_header.jpg) no-repeat;
+	color: #333333;
+	height: 130px;
+	width: 579px;
+}
+
+
+/* main content section */
+
+#main_content { 
+	float: right;
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+	background: #FFFFFF;
+	color: #333333;
+	width: 579px;
+}
+
+
+/* footer */
+
+#footer { 
+	clear: both;
+	padding: 5px 0px 5px 0px;
+	margin: 0px;
+	height: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	font-weight: normal;
+	color: #333333;
+	background: #FFFFFF url(../images/horizontal_bg.gif) top repeat-x;
+	border-bottom: 1px solid #666666;
+	border-right: 1px solid #666666;
+	border-left: 1px solid #666666;
+}
+
+#footer  { 
+	width: 762px; 
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width: 760px;
+} 
+  /* CSS1 UAs should see and use 2nd width */
+
+html>body #footer { width: 760px }
+
+
+#footer a:link, #footer a:visited {
+	color: #994400;
+	background: #FFFFFF;
+	font-weight: bold;
+}
+
+#footer a:hover {
+	color: #444444;
+	background: #FFFFFF;
+	font-weight: bold;
+}
+
+
+/* footer block, used to keep a margin at the bottom of the page in firefox */
+
+#footer_block {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	height: 10px;
+	color: #FFFFFF;
+	background: #DDDDDD;
+}
+
+
+div.clr {
+	clear: both;
+}

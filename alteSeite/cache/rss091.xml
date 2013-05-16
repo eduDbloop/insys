@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<rss version="0.91">
+	<channel>
+		<title>InSystec.eu</title>
+		<description>InSys, einlegesystem für flächenbündigen Einbau von Spülen und Kochefeldern in Arbeitsplatten</description>
+		<link>http://www.insystec.eu</link>
+		<lastBuildDate>Wed, 01 May 2013 13:37:28 +0100</lastBuildDate>
+		<generator>FeedCreator 1.7.2</generator>
+		<image>
+			<url>http://www.insystec.eu/images/M_images/joomla_rss.png</url>
+			<title>News von InSysTec.eu</title>
+			<link>http://www.insystec.eu</link>
+			<description>InSys, einlegesystem für flächenbündigen Einbau von Spülen und Kochefeldern in Arbeitsplatten</description>
+		</image>
+		<item>
+			<title>Was ist InSYS</title>
+			<link>http://www.insystec.eu/index.php?option=com_content&amp;task=view&amp;id=16&amp;Itemid=35</link>
+			<description>(/index.php?option=com_content task=view id=55)F&amp;uuml;r die fl&amp;auml;chenb&amp;uuml;ndige Montage von Kochfeldern, Sp&amp;uuml;len und sonstigen Einlegeelementen in Arbeitsplatten gibt es  die L&amp;ouml;sung.Sie...</description>
+			<category>Was ist InSys - Was ist InSys</category>
+			<pubDate>Wed, 09 Aug 2006 11:55:59 +0100</pubDate>
+		</item>
+		<item>
+			<title>Inlayrahmen</title>
+			<link>http://www.insystec.eu/index.php?option=com_content&amp;task=view&amp;id=13&amp;Itemid=32</link>
+			<description>(/index.php?option=com_content task=view id=66)Jeder Inlayrahmen kann individuell hergestellt werden.Die Abmessungen f&amp;uuml;r  den Ausschnitt in der Arbeitsplatte k&amp;ouml;nnen Sie...</description>
+			<category>Inlayrahmen - Inlayrahmen</category>
+			<pubDate>Wed, 09 Aug 2006 11:46:57 +0100</pubDate>
+		</item>
+	</channel>
+</rss>

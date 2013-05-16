@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template" version="1.0.0">
+	<name>avaurus_metrobusiness</name>
+	<creationDate>29/06/2006</creationDate>
+	<author>Andreas Schipplock</author>
+	<copyright>Feedbackware</copyright>
+    <authorEmail>avaurus@gmail.com</authorEmail>
+    <authorUrl>http://avaurus.com</authorUrl>
+	<version>0.1</version>
+	<description>Feedbackware - throw me an email or whatever.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/body_bg.png</filename>
+		<filename>images/content_sep.png</filename>
+		<filename>images/tab_top_bg.gif</filename>
+		<filename>images/title.jpg</filename>
+	</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

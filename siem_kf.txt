@@ -1,0 +1,6 @@
+Ausschnittmaße in der Arbeitsplatte:
+Länge des Ausschnitts: 802.8mm
+Breite des Ausschnitts: 522.8mm
+Eckradius des Ausschnitts : 13.4mm
+Abstand des Ausschnitts von der Vorderkante: 114.6mm
+Abstand des Ausschnitts von der Seitenkante: 144.6mm

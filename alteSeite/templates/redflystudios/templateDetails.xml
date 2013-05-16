@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template" version="4.5.4">
+  <name>RedFlyStudios</name>
+  <creationDate>03/09/2006</creationDate>
+  <author>RedFlyStudios</author>
+  <copyright>This template is released under GNU/GPL License.</copyright>
+  <authorEmail>support@redflystudios.com</authorEmail>
+  <authorUrl>www.redflystudios.com</authorUrl>
+  <version>1.0</version>
+  <description>The original Redflystudios.com design ported from Mambo by Arnold Majlath of Redflystudios. Please see the readme.txt for customization details. Original design by Calin Bors of Redflystudios.com</description>
+  <files>
+    <filename>index.php</filename>
+    <filename>index-flash.php</filename>
+    <filename>template_thumbnail.png</filename>
+  </files>
+  <images>
+		<filename>images/bot_00.gif</filename>
+		<filename>images/br.gif</filename>
+		<filename>images/break.gif</filename>
+		<filename>images/bulleth.gif</filename>
+		<filename>images/external.js</filename>
+		<filename>images/fade.js</filename>
+		<filename>images/fly.swf</filename>
+		<filename>images/footer.gif</filename>
+		<filename>images/header.js</filename>
+		<filename>images/header.swf</filename>
+		<filename>images/logo.js</filename>
+		<filename>images/m_break.gif</filename>
+		<filename>images/stitlebg.gif</filename>
+		<filename>images/stitlebgh.gif</filename>
+		<filename>images/header.jpg</filename>
+		</images>
+  <css>
+    <filename>css/template_css.css</filename>
+  </css>
+</mosinstall>

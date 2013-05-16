@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template" version="1.0.0">
+	<name>Red Evolution Thirty Three</name>
+	<creationDate>26/06/06</creationDate>
+	<author>Robert Harrison</author>
+	<copyright>Red Evolution</copyright>
+    <authorEmail>info@redevolution.com</authorEmail>
+    <authorUrl>http://www.redevolution.com</authorUrl>
+	<version>1</version>
+	<description>Red Evolution Thirty Three: Simple layout that just need logo and banner adding.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/arrow.png</filename>
+		<filename>images/content_header.jpg</filename>
+		<filename>images/button_bg.png</filename>
+		<filename>images/emailButton.png</filename>
+		<filename>images/footer_bg.gif</filename>
+		<filename>images/header.jpg</filename>
+		<filename>images/header.psd</filename>
+		<filename>images/horizontal_bg.gif</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/main_bg.gif</filename>
+		<filename>images/menu_bg.gif</filename>
+		<filename>images/menu_bg2.gif</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>
+		<filename>images/rating_star_blank.png</filename>
+		<filename>images/spacer.png</filename>
+		<filename>images/subhead_bg.gif</filename>
+		</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

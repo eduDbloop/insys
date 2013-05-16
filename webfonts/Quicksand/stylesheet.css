@@ -1,0 +1,14 @@
+@import url("../lexia_std_bd/stylesheet.css");
+@font-face {
+	font-family: 'Quicksand';
+	src: url('Quicksand_Book-webfont.eot');
+	src: url('Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+		url('Quicksand_Book-webfont.woff') format('woff'),
+		url('Quicksand_Book-webfont.ttf') format('truetype'),
+		url('Quicksand_Book-webfont.svg') format('svg');
+}.titel {
+	font-family: "lexia std bd";
+	font-size: 4em;
+	color: #000;
+	text-decoration: none;
+}

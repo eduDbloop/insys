@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template" version="4.5.2">
+	<name>Rounder</name>
+	<creationDate>May 2006</creationDate>
+	<author>Ajey Mugen</author>
+	<copyright>GNU/GPL</copyright>
+	<authorEmail>webmaster@arejea.com</authorEmail>
+	<authorUrl>http://www.arejea.com</authorUrl>
+	<version>1.0</version>
+	<description>You can use and edit this template for FREE. If you need our help, please visit our forum for support request. We highly appreciate if you could link back to us in order to support our FREE template development. Cheers!</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/bg_bottom01.jpg</filename>
+		
+		
+		<filename>images/left_bar.jpg</filename>
+		
+		<filename>images/logo.jpg</filename>
+		<filename>images/main_banner.jpg</filename>
+		<filename>images/menu_active.jpg</filename>
+		<filename>images/menu_init.jpg</filename>
+		<filename>images/menu_over.jpg</filename>
+		<filename>images/pixel.gif</filename>
+		<filename>images/right_bar.jpg</filename>
+		
+		<filename>images/round_01.jpg</filename>
+		<filename>images/round_02.jpg</filename>
+		<filename>images/title_bar.jpg</filename>
+		<filename>images/top_bg.jpg</filename>
+		<filename>images/top_bg_right.jpg</filename>
+		<filename>images/body_bg.jpg</filename>
+		
+		</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

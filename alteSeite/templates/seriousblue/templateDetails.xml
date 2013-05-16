@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template" version="1.0.0">
+	<name>SeriousBlue</name>
+	<creationDate>25/03/2006</creationDate>
+	<author>Michael Salzmann</author>
+	<copyright>Linkware</copyright>
+    <authorEmail>michael.salzmann@gmail.com</authorEmail>
+    <authorUrl>http://www.funky-visions.de</authorUrl>
+	<version>1.0</version>
+	<description>Linkware - D.h. der Link im Footer des Templates darf nicht ohne weiteres entfernt werden. Eine Entfernung des Links ist aber gegen eine einmalige Gebühr möglich. Für mehr Infos dazu: http://www.funky-visions.de - pure webentertainment ;-)</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/background.jpg</filename>
+		<filename>images/background_bottom.gif</filename>
+		<filename>images/component_heading_voran.gif</filename>
+		<filename>images/content_heading_voran.gif</filename>
+		<filename>images/content_table_bg_bottom.jpg</filename>
+		<filename>images/content_table_bg_middle.jpg</filename>
+		<filename>images/content_table_bg_top.jpg</filename>
+		<filename>images/header.png</filename>
+		<filename>images/link_voran.gif</filename>
+		<filename>images/logo.gif</filename>
+		<filename>images/pathway_hg.gif</filename>
+		<filename>images/sectiontableheader_hg.gif</filename>
+		<filename>images/topmodul_bg.gif</filename>
+		<filename>images/ueberschrift_anfuehrer.gif</filename>
+	</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

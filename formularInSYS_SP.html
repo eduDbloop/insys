@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>formular</title>
+<style type="text/css">
+@import url("webfonts/Oswald_Regular/stylesheet.css");
+
+
+.Oswaldtitle {
+	font-family: Oswald;
+	font-size: 24px;
+}
+#apDiv1 {
+	position: absolute;
+	left: 12px;
+	top: 81px;
+	width: 534px;
+	height: 175px;
+	z-index: 1;
+	font-family: Oswald;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+#apDiv2 {
+	position: absolute;
+	left: 599px;
+	top: 73px;
+	width: 145px;
+	height: 76px;
+	z-index: 2;
+}
+.formularTitel {
+	font-family: "Oswald Regular";
+	font-size: 24px;
+}
+
+</style>
+
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript">
+     function LimpiarCombo(combo){
+          while(combo.length > 0){
+               combo.remove(combo.length-1);
+          }
+     }
+    
+     function LlenarCombo(json, combo){
+          combo.options[0] = new Option('Model', '');         
+          for(var i=0;i<json.length;i++){
+               combo.options[combo.length] = new Option(json[i].data, json[i].id);
+          }
+     }
+
+     function selCombo(combo1, combo2){
+
+          comb = document.getElementById(combo2); //con jquery: $("#"+combo2)[0];
+          LimpiarCombo(comb);
+
+          if(combo1.options[combo1.selectedIndex].value != ''){
+               combo1.disabled = true;
+               combo2.disabled = true;
+               $.ajax({
+                    type: 'get',
+                    dataType: 'json',
+                    url: 'ajaxsp.php',
+                    data: {valor: combo1.options[combo1.selectedIndex].value},
+                    success: function(json){
+                         LlenarCombo(json, comb);
+                         combo1.disabled = false;
+                         combo2.disabled = false;
+                        
+                    }
+               });
+          }
+     }
+</script>
+</head>
+
+<body class="Oswaldtitle">
+<div id="apDiv1">
+  <form name="form1" method="post" action="pruebafpdf_sp.php">
+    <select id="herst" name="herst" style="width:150px" onChange="selCombo(this, 'spul')" >
+      <option value="0">----Hersteller----</option>
+        <option value="Alveus">Alveus</option>
+        <option value="Eisinger">Eisinger</option>
+        <option value="Blanco">Blanco</option>
+        <option value="Franke">Franke</option>
+        <option value="Häcker">Häcker</option>
+        <option value="Reginox">Reginox</option>
+        <option value="Rieber">Rieber</option>
+        <option value="Teka">Teka</option>
+    </select><br />
+      <select id="spul" name="spul" style="width:150px" >
+      	<option value="0">----Spülemodel----</option>
+    </select>
+    
+    <br>
+<br>
+ <strong>oder</strong> geben Sie die Maße der Spüle ein: 
+
+<table style="table-layout:fixed" border="0">
+<tbody><tr>
+<td style="width:200px">Länge Spüle:</td>
+<td><input name="laenge" type="text" size="15" maxlength="30">mm</td>
+</tr>
+
+<tr>
+<td>Breite Spüle:</td>
+<td><input name="breite" type="text" size="15" maxlength="30">mm</td>
+</tr>
+
+<tr>
+<td>Eckradius Spüle:</td>
+<td><input name="r" type="text" size="15" maxlength="30">mm</td>
+</tr>
+</tbody></table>
+<br>
+<br>
+<br>
+<br>
+<span class="formularTitel">2. Und geben Sie bitte hier die Position der Spüle in der Arbeitsplatte an:</span>
+
+  <br>
+  <br>
+  <br>
+  <table style="table-layout: fixed; font-family: Oswald; font-size: 16px;" border="0">
+    <tbody>
+      <tr>
+        <td style="width: 230px; font-family: Oswald; font-size: 16px;">Abstand Spüle Vorderkante:</td>
+        <td><input name="laenge2" type="text" size="15" maxlength="30">
+          mm</td>
+      </tr>
+      <tr>
+        <td>Abstand Spüle Seitenkante:</td>
+        <td><input name="breite2" type="text" size="15" maxlength="30">
+          mm</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <input name="send" type="submit" id="send" value="Weiter">
+  <input type="reset" name="reset" id="reset" value="Zurücksetzen">
+  </form>
+</div>
+<p class="formularTitel">1. Wählen Sie bitte die gewünschte Spüle aus...</p>
+<p class="formularTitel">&nbsp;</p>
+<p class="formularTitel">&nbsp;</p>
+<p class="formularTitel">&nbsp;</p>
+<p class="formularTitel">&nbsp;</p>
+<p class="formularTitel">&nbsp;</p>
+<p class="formularTitel">&nbsp;</p>
+</body>
+</html>

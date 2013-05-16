@@ -1,0 +1,300 @@
+@charset "utf-8";
+@import url("webfonts/Oswald_Regular/stylesheet.css");
+@import url("webfonts/Oswald_Light/stylesheet.css");
+@import url("webfonts/Quicksand/stylesheet.css");
+
+
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element-/Tag-Selektoren ~~ */
+ul, ol, dl { /* Aufgrund von Abweichungen zwischen verschiedenen Browsern empfiehlt es sich, die Auffüllung und den Rand in Listen auf 0 einzustellen. Zu Konsistenzzwecken können Sie die gewünschten Werte entweder hier oder in den enthaltenen Listenelementen (LI, DT, DD) eingeben. Beachten Sie, dass die hier eingegebenen Werte hierarchisch auf die .nav-Liste angewendet werden, sofern Sie keinen spezifischeren Selektor festlegen. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* Durch Verschieben des oberen Rands wird das Problem behoben, dass Ränder aus dem zugehörigen div-Tag geraten können. Der übrig gebliebene untere Rand hält ihn getrennt von allen folgenden Elementen. */
+	padding-right: 15px;
+	padding-left: 15px; /* Durch Hinzufügen der Auffüllung zu den Seiten der Elemente innerhalb der div-Tags anstelle der div-Tags selbst entfallen jegliche Box-Modell-Berechnungen. Alternativ kann auch ein verschachteltes div-Tag mit seitlicher Auffüllung verwendet werden. */
+	font-family: Quicksand;
+}
+.estilotextTitel {
+	font-family: Quicksand;
+	font-size: 32px;
+	font-style: normal;
+	color: #000;
+	text-decoration: none;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+a img { /* Dieser Selektor entfernt den standardmäßigen blauen Rahmen, der in einigen Browsern um ein Bild angezeigt wird, wenn es von einem Hyperlink umschlossen ist. */
+	border: none;
+}
+
+/* ~~ Die Reihenfolge der Stildefinitionen für die Hyperlinks der Site, einschließlich der Gruppe der Selektoren zum Erzeugen des Hover-Effekts, muss erhalten bleiben. ~~ */
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { /* Durch diese Gruppe von Selektoren wird bei Verwendung der Tastatur der gleiche Hover-Effekt wie beim Verwenden der Maus erzielt. */
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: 400;
+	
+}
+
+a.link:link {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: underline;
+	padding: 10px 0 10px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 25px;
+	color: #000;
+}
+
+a.link:hover {
+	text-decoration:none;
+	color:#F56A0B;
+	font-weight:400;	
+}
+
+
+/* ~~ Dieser Container umschließt alle anderen div-Tags und weist ihnen ihre als Prozentwert definierte Breite zu. ~~ */
+.container {
+	width: auto;
+	max-width: 1260px;/* Es empfiehlt sich die Eingabe einer maximalen Breite (Eigenschaft max-width), damit dieses Layout auf einem großen Bildschirm nicht zu breit angezeigt wird. Dadurch bleibt die Zeilenlänge besser lesbar. IE6 berücksichtigt diese Deklaration nicht. */
+	min-width: 780px;/* Es empfiehlt sich die Eingabe einer minimalen Breite (Eigenschaft min-width), damit dieses Layout nicht zu schmal angezeigt wird. Dadurch bleibt die Zeilenlänge in den seitlichen Spalten besser lesbar. IE6 berücksichtigt diese Deklaration nicht. */
+	background-color: #FFF;
+	margin: 0 auto; /* Der mit der Breite gekoppelte automatische Wert an den Seiten zentriert das Layout. Er ist nicht erforderlich, wenn Sie die Breite von .container auf 100 Prozent setzen. */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* ~~ Für die Kopfzeile wird keine Breite angegeben. Sie erstreckt sich über die gesamte Breite des Layouts. Sie enthält einen Bild-Platzhalter, der durch Ihr eigenes, mit Hyperlink versehenes Logo ersetzt werden sollte. ~~ */
+.header {
+	background-color: #FFFFFF;
+	position: relative;
+	top: 230px;
+	left: 0%;
+	height: 130px;
+	background-image: url(Bilder/header/header3.jpg);
+	background-repeat: no-repeat;
+	width: 80%;
+	font-family: "Oswald Light";
+	font-size: 18px;
+	color: #FFF;
+	font-weight: 400;
+	font-style: normal;
+	text-transform: uppercase;
+	vertical-align: baseline;
+	min-width: 760px;
+	
+}
+
+/* ~~ Dies sind die Layoutinformationen. ~~ 
+
+1) Eine Auffüllung wird nur oben und/oder unten im div-Tag positioniert. Die Elemente innerhalb dieses div-Tags verfügen über eine seitliche Auffüllung. Dadurch müssen Sie keine Box-Modell-Berechnungen durchführen. Zu beachten: Wenn Sie dem div-Tag eine seitliche Auffüllung oder einen Rahmen hinzufügen, werden diese zu der festgelegten Breite addiert und ergeben die *gesamte* Breite. Sie können auch die Auffüllung für das Element im div-Tag entfernen und ein zweites div-Tag ohne Breite und mit der gewünschten Auffüllung im ersten div-Tag einfügen.
+
+*/
+.content {
+	position: absolute;
+	top: 397px;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+	right: 52%;
+	left: 5%;
+	height: 355px;
+}
+
+/* ~~ Dieser gruppierte Selektor gibt die Listen im .content-Bereich an. ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* Diese Auffüllung setzt die rechte Auffüllung in der obigen Regel für Überschriften und Absätze fort. Die Auffüllung wurde unten für den Abstand zwischen anderen Elementen in den Listen und links für den Einzug platziert. Sie können die Werte nach Bedarf ändern. */
+}
+
+/* ~~ Fußzeile ~~ */
+.footer {
+	background-color: #FFFFFF;
+	background-image: url(Bilder/header/header2.jpg);
+	background-repeat: no-repeat;
+	right: 0px;
+	padding: 10px 0 10px 0;
+	float: right;
+	position: relative;
+	height: 120px;
+	width: 75%;
+	top: 709px;
+}
+
+/* ~~ Verschiedene float/clear-Klassen ~~ */
+.fltrt {  /* Mit dieser Klasse können Sie ein Element auf der Seite nach rechts fließen lassen. Das fließende Element muss vor dem Element stehen, neben dem es auf der Seite erscheinen soll. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* Mit dieser Klasse können Sie ein Element auf der Seite nach links fließen lassen. Das fließende Element muss vor dem Element stehen, neben dem es auf der Seite erscheinen soll. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* Diese Klasse kann in einem <br />-Tag oder leeren div-Tag als letztes Element nach dem letzten fließenden div-Tag (im #container) platziert werden, wenn #footer entfernt oder aus dem #container herausgenommen wird. */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.estilotexto {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+	padding: 10px 0 10px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 25px;
+	color: #000;
+}
+.estilolink {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: underline;
+	padding: 10px 0 10px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 25px;
+	color: #000;
+}
+.adressehead {
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	line-height: 25px;
+	text-transform: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.adressefuß {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	color: #333;
+	text-decoration: none;
+	text-transform: none;
+	text-align: left;
+	line-height: 25px;
+}
+.kontakthead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	text-transform: none;
+}
+.kontaktfuß {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	line-height: 25px;
+}
+.tabla {
+	font-family: "Oswald Light";
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 600;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: normal;
+}
+.umlaut {
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+}
+.kontaktform {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	color: #333;
+	text-decoration: none;
+	text-transform: none;
+	vertical-align: middle;
+}
+.topstand {
+	vertical-align: text-top;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: none;
+}
+
+.enlaceboton {
+	font-family: Quicksand;
+	font-size: 12pt;
+	font-weight: bold;
+	padding: 4px;
+	background-color: #FEB100;
+	color: #FFF;
+	text-decoration: none;
+	text-transform: none;
+	font-weight: 650;
+} 
+.enlaceboton:link, 
+.enlaceboton:visited { 
+   border-top: 1px solid #cccccc; 
+   border-bottom: 2px solid #666666; 
+   border-left: 1px solid #cccccc; 
+   border-right: 2px solid #666666; 
+} 
+.enlaceboton:hover { 
+    border-bottom: 1px solid #cccccc; 
+   border-top: 2px solid #666666; 
+   border-right: 1px solid #cccccc; 
+   border-left: 2px solid #666666;
+   color: #F56A0B;
+} 
+.pflichtfeld {
+	text-align: right;
+	vertical-align: top;
+}
+.tablaTahoma {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	color: #000;
+	text-decoration: none;
+	text-transform: none;
+	font-weight: 400;
+}
+.pruebasteffen {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	padding: 10px 0 10px 0;
+	color: #000;
+	line-height: 25px;
+}

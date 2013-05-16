@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+	<name>jooorange</name>
+	<creationDate>21 06 2006</creationDate>
+	<author>John Grabenmeier</author>
+	<copyright>This template is released under the GNU/GPL License</copyright>
+	<authorEmail>webmaster@jooon.de</authorEmail>
+	<authorUrl>http://www.jooon.de</authorUrl>
+	<version>1.1</version>
+	<description>A clean orange xhtml Template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/body_bg.png</filename>
+		<filename>images/header1.png</filename>
+		<filename>images/header2.png</filename>
+		<filename>images/listpunkte.png</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/navi_pfeil.png</filename>
+		<filename>images/strichel.png</filename>
+		<filename>images/header2b.png</filename>
+		<filename>images/hg1.png</filename>
+	</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

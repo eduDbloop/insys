@@ -1,0 +1,200 @@
+/* CAROUSEL */
+
+.carousel{
+	position: relative;
+	height: auto;
+	width: 820px;
+	overflow: hidden;
+	
+}
+
+.carousel h2{
+	color: #fff;
+}	
+
+
+.carousel .backgrounds{
+	height: auto;
+}
+
+.carousel .backgrounds .item{
+	width: 820px;
+	height: 401px;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+.carousel .backgrounds .item_1{
+	background: transparent  url(../Bilder/Montage%20Schritte/Kochfeld/form3d_01.jpg) no-repeat 0 0;
+	
+}
+
+.carousel .backgrounds .item_2{
+    background: transparent url(../Bilder/Montage%20Schritte/Kochfeld/form3d_02.jpg) no-repeat 0 0;
+	
+}
+
+.carousel .backgrounds .item_3{
+	background: transparent url(../Bilder/Montage%20Schritte/Kochfeld/form3d_03.jpg) no-repeat 0 0;
+	
+}
+
+.carousel .backgrounds .item_4{
+	background: transparent url(../Bilder/Montage%20Schritte/Kochfeld/form3d_04.jpg) no-repeat 0 0;
+	
+}
+
+.carousel .backgrounds .item_5{
+	background: transparent url(../Bilder/Montage%20Schritte/Kochfeld/form3d_05.jpg) no-repeat 0 0;
+	
+}
+
+.carousel .backgrounds .item_6{
+	background: transparent url(../Bilder/Montage%20Schritte/Kochfeld/form3d_06.jpg) no-repeat 0 0;
+	
+}
+
+.carousel .backgrounds .item_7{
+	background: transparent url(../Bilder/Montage%20Schritte/Kochfeld/form3d_07.jpg) no-repeat 0 0;
+	
+}
+
+.carousel .backgrounds .item_8{
+	background: transparent url(../Bilder/Montage%20Schritte/Kochfeld/form3d_08.jpg) no-repeat 0 0;
+	
+}
+
+.carousel .backgrounds .item_9{
+	background: transparent url(../Bilder/Montage%20Schritte/Kochfeld/form3d_10.jpg) no-repeat 0 0;
+	
+}
+
+.carousel .backgrounds .item_10{
+	background: transparent url(../Bilder/Montage%20Schritte/Kochfeld/form3d_11.jpg) no-repeat 0 0;
+	
+}
+
+.carousel .backgrounds .item_11{
+	background: transparent url(../Bilder/Montage%20Schritte/Kochfeld/form3d_12.jpg) no-repeat 0 0;
+	
+}
+
+.carousel .backgrounds .item_12{
+	background: transparent url(../Bilder/Montage%20Schritte/Spüle/form3d_14.jpg) no-repeat 0 0;
+	
+}
+
+.carousel .panel{
+	background: #000;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 401px;
+	width: 275px;
+	z-index: 10;
+	background-color: #FEBF00;
+}
+
+.carousel .panel .paging{
+    position:absolute;
+    bottom: 25px;
+    left:25px;
+    width: 225px;    
+    text-align:center;   
+}
+
+.carousel .panel .paging a{
+    color: #4c4c4c;
+    font-size: 1.1em;
+}
+
+.carousel .panel .pause{
+    position:absolute;
+    right:20px;
+    top:25px;
+    display:block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(file:///H|/WebSite/Bilder/dualSlider/carousel_pause_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+.carousel .panel .play{
+    position:absolute;
+    right:20px;
+    top:25px;
+    display:block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(file:///H|/WebSite/Bilder/dualSlider/carousel_play_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+
+.carousel .panel .paging .next{
+    position:absolute;
+    right:0;
+    bottom:0;
+    display:block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(file:///H|/WebSite/Bilder/dualSlider/carousel_next_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+.carousel .panel .paging .previous{
+    position:absolute;
+    left:0;
+    bottom:0;
+    display:block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(file:///H|/WebSite/Bilder/dualSlider/carousel_previous_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+.carousel .panel .paging #numbers a {
+    padding: 0 5px 0 5px;
+}
+
+.carousel .panel .paging #numbers a.selected {
+    color: #fff;
+}
+
+
+
+.carousel .panel .details_wrapper {
+    position:absolute;
+    top:20px;
+    left:25px;
+    width: 225px;
+    overflow:hidden;
+    height: 315px;
+}
+
+.carousel .panel .details_wrapper .details{
+    height: 200px;
+}
+
+.carousel .panel .details_wrapper .details .detail{
+	width: 225px;
+	height: 280px;
+	float: left;
+    
+}
+
+.carousel .panel .details_wrapper .details h2{
+	font-size: 1.9em;
+	line-height: 1.2em;
+	margin: 0;
+	color: #FFF;
+}
+
+.carousel .panel .details_wrapper .details a.more{
+    color: #fff;
+    font-size:1.1em;
+}   
+
+/* END CAROUSEL */

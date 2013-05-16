@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kontakt</title>
+<link href="oneColLiqCtrHdr.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	background-color: #FFFFFF;
+}
+
+</style>
+
+<!-- <style type="text/css">
+
+input { type
+</style> -->
+
+<link href="demo.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#apDiv3 {
+	position: absolute;
+	left: 47px;
+	top: 31px;
+	width: 245px;
+	height: 110px;
+	z-index: 2;
+}
+#apDiv4 {
+	position: absolute;
+	left: 10%;
+	top: 15px;
+	width: 250px;
+	height: 96px;
+	z-index: 3;
+}
+#apDiv5 {
+	position: absolute;
+	left: 50%;
+	top: 15px;
+	width: 250px;
+	height: 96px;
+	z-index: 4;
+}
+
+
+#apDiv9 {
+	background-color: #FFFFFF;
+	background-image: url(Bilder/header/header2.jpg);
+	background-repeat: no-repeat;
+	right: 0px;
+	padding: 10px 0 10px 0;
+	float: right;
+	position: relative;
+	height: 118px;
+	width: 75%;
+	top: 710px;
+}
+
+#apDiv6 {
+	position: absolute;
+	left: 475px;
+	top: 400px;
+	width: 414px;
+	height: 405px;
+	z-index: 3;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#apDiv1 {
+	position: absolute;
+	left: 55%;
+	top: 379px;
+	width: auto;
+	height: auto;
+	z-index: 5;
+	
+}
+#apDiv2 {
+	position: absolute;
+	left: 5%;
+	top: 379px;
+	width: 467px;
+	height: 353px;
+	z-index: 6;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: 400;
+	color: #000;
+}
+</style>
+
+</head>
+
+<body>  
+<div id="apDiv3"><img src="Bilder/Logo/Fertige Logos/InSYS_LogovArial.jpg" width="337" height="150" alt="logoInSYS"></div>
+<div id="apDiv1">
+  
+  <form name="form1" method="post" action="send.php">
+  <p class="kontaktform">      
+  </p>
+  <table width="400" border="0">
+      <tr>
+        <td width="123" class="kontaktform">Anrede:</td>
+        <td width="18">&nbsp;</td>
+        <td width="245"><input name="radio" type="radio" id="frau3" value="frau" checked>
+          <label for="frau3" class="kontaktform">Frau
+            <input type="radio" name="radio" id="herr3" value="herr">
+        Herr </label></td>
+      </tr>
+      <tr>
+        <td class="kontaktform">Name, Vorname:</td>
+        <td class="pflichtfeld"><img src="Bilder/required.png" width="16" height="16" alt="Pflciht Feld"></td>
+        <td><input name="name" type="text" id="name" value="" size="30" maxlength="40"></td>
+      </tr>
+      <tr>
+        <td class="kontaktform">Straße:</td>
+        <td class="pflichtfeld"><img src="Bilder/required.png" width="16" height="16" alt="Pflciht Feld"></td>
+        <td><input name="str" type="text" id="str" size="30" maxlength="40"></td>
+      </tr>
+      <tr>
+        <td class="kontaktform">PLZ &amp; Ort:</td>
+        <td class="pflichtfeld"><img src="Bilder/required.png" width="16" height="16" alt="Pflciht Feld"></td>
+        <td><input name="plzort" type="text" id="plzort" value="" size="30" maxlength="40"></td>
+      </tr>
+      <tr>
+        <td class="kontaktform">Telefon:</td>
+        <td><label for="tel2"></label></td>
+        <td><input name="tel" type="text" id="tel" size="30" maxlength="40"></td>
+      </tr>
+      <tr>
+        <td class="kontaktform">Fax:</td>
+        <td>   <label for="fax2"></label></td>
+        <td><input name="fax" type="text" id="fax" size="30" maxlength="40"></td>
+      </tr>
+      <tr>
+        <td class="kontaktform">Email:</td>
+        <td class="pflichtfeld"><img src="Bilder/required.png" width="16" height="16" alt="Pflicht Feld"></td>
+        <td><input name="email" type="text" id="email" value="" size="30" maxlength="40"></td>
+      </tr>
+      <tr>
+        <td class="kontaktform topstand">Nachricht:</td>
+        <td class="pflichtfeld"><img src="Bilder/required.png" width="16" height="16" alt="Pflicht Feld"></td>
+        <td><textarea name="text" cols="24" rows="10" id="text"></textarea></td>
+      </tr>
+    </table>
+  <br>
+  <input type="submit" name="send" id="send" value="Nachricht senden" class="enlaceboton" >
+  <br>
+  </form>
+ 
+</div>
+
+
+
+<div class="estilotexto" id="apDiv2">Wilh. Steffen u. Sohn GmbH &amp; Co. KG<br>
+  Waldstraße 114, 32052 Herford<br>
+  <table width="282" border="0">
+    <tr>
+      <td width="112" class="tablaTahoma">Telefon:</td>
+      <td width="160" class="tablaTahoma">(05221) 97 46-0</td>
+    </tr>
+    <tr>
+      <td class="tablaTahoma">Fax:</td>
+      <td class="tablaTahoma">(05221) 97 46-13</td>
+    </tr>
+    <tr>
+      <td class="tablaTahoma">E-Mail:</td>
+      <td class="tablaTahoma"><a href="mailto:kontakt@insystec.eu" class="link">kontakt@insystec.eu</a></td>
+    </tr>
+  </table>
+<br>
+
+  <br>
+  Wenn Sie Fragen haben, können Sie das folgende Formular nutzen! Wir werden uns umgehend bei Ihnen melden. Oder Sie rufen uns ganz einfach an oder senden uns ein Fax!<br>
+  <br>
+Alle mit <img src="Bilder/required.png" width="16" height="16" alt="req"> gekennzeichneten Felder müssen ausgefüllt werden.</div>
+<div class="container">
+  <div class="header"><!-- end .header -->
+    <table width="756" border="0" align="center" cellspacing="3">
+      <tr>
+        <th width="108" height="110" class="tabla" scope="col"><a href="index.html" class="tabla">STARTSEITE</a></th>
+        <th width="99" class="tabla" scope="col"><a href="uberuns.html" class="tabla">ÜBER UNS</a></th>
+        <th width="102" class="tabla" scope="col"><a href="uberinsys.html" class="tabla">ÜBER iNSYS</a></th>
+        <th width="117" class="tabla" scope="col"><a href="technologie.html" class="tabla">technologie</a></th>
+        <th width="122" class="tabla" scope="col"><a href="inlayrahmen.html" class="tabla">inlayrahmen</a></th>
+        <th width="80" class="tabla" scope="col"><a href="kontakt.html" class="tabla">KONTAKT</a></th>
+      </tr>
+    </table>
+  </div><div id="apDiv9"><div id="apDiv4"><span class="apDiv20"><span class="adressehead">Wilh. Steffen u. Sohn GmbH &amp; Co. KG </span><br>
+  </span><span class="adressefuß">Waldstraße 114<br>
+32052 Herford </span></div>
+<div id="apDiv5"><span class="kontakthead">Kontakt</span><br>
+  <br>
+  <span class="kontaktfuß">Tel. (05221) 97 46-0<br>
+  Fax. (05221) 97 46 13<br>
+Mail. <a href="mailto:kontakt@insystec.eu" class="kontaktfuß">kontakt@insystec.eu</a> </span></div></div>
+  <!-- end .container -->
+</div>
+</body>
+</html>

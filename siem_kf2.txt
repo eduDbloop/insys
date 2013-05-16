@@ -1,0 +1,22 @@
+Kochfeld Siemens EF 785001 mit den Abmessungen: 
+Länge:	
+792.0 mm
+Breite:	
+512.0 mm
+Eckradius:	
+8.0 mm
+ist ausgewählt
+
+Größe des Ausschnitts: 
+Länge des Ausschnitts:	
+802.8 mm
+Breite des Ausschnitts:	
+522.8 mm
+Eckradius des Ausschnitts:	
+13.4 mm
+Abstand des Ausschnitts von der Vorderkante:	
+114.6 mm
+Abstand des Ausschnitts von der Seitenkante:	
+144.6 mm
+
+alle Angaben sind vorbehaltlich technischer Änderungen. 

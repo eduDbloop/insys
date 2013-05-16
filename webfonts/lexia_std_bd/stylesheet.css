@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'lexia std bd';
+	src: url('lexia_std_bd-webfont.eot');
+	src: url('lexia_std_bd-webfont.eot?#iefix') format('embedded-opentype'),
+		url('lexia_std_bd-webfont.woff') format('woff'),
+		url('lexia_std_bd-webfont.ttf') format('truetype'),
+		url('lexia_std_bd-webfont.svg') format('svg');
+}

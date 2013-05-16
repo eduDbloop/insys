@@ -1,0 +1,78 @@
+========================================================================
+N O T E S about YOFonts FREE SAMPLER (February/1999)
+------------------------------------------------------------------------
+Yasuhiro Yamaoka @ YOWorks
+========================================================================
+
+Please read this before you install sample.
+
+1. PS for MacOS, there are three files; PS outline font file,
+   screen font file, "YOF SMP Read Me" document file.
+   TT for MacOS, there are two files; TT outline font file,
+   and "YOF SMP Read Me" document file.
+   TT for Windows, there are two files; TT outline font file
+   and "YOFSMP.TXT" document file.
+2. PS means Adobe PostScript Type-1 format.
+   TT means TrueType format.
+3. Don't add any modification to these files.
+4. Don't forget to attach this "Read Me" (for MacOS) or
+   "yofsmp.txt" (for Windows) document file with font
+   files when you give these to someone.
+5. Don't publish these files without permission.
+    (example: CD-ROM font library, etc) 
+6. Don't put these files on your web page as a link.
+7. To show the link at "YOWorks Web Site" on your web page
+    is welcomed.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+YOFonts FREE SAMPLER is FREEWARE.
+
+E-mail: info@yoworks.com
+"YOWorks Web Site" URL: http://www.yoworks.com/
+
+Thank you. Enjoy YOFonts FREE SAMPLER.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The document that follows this line is written in Japanese.
+If you don't have OS which can treat Japanese language,
+it cannot be read. This is NOT BUG!
+
+========================================================================
+YOFonts FREE SAMPLERについて (February/1999)
+------------------------------------------------------------------------
+山岡康弘 @ YOWorks
+========================================================================
+
+サンプルをインストールする前に。
+
+1. MacOS用PSにはPSアウトラインフォントファイル、スクリーンフォント
+   ファイル、「YOF SMP Read Me」書類ファイルの3つのファイルがあります。
+   MacOS用TTにはTTアウトラインフォントファイルと
+   「YOF SMP Read Me」書類ファイルの2つのファイルがあります。
+   Windows用TTにはTTアウトラインフォントファイルと
+   「YOFSMP.TXT」書類ファイルの2つのファイルがあります。
+2. PSとはアドビポストスクリプトタイプ1フォーマットのことです、
+   TTはTrueTypeフォーマットのことです。
+3. ファイルの内容を改変しないで下さい。
+4. 誰かに譲渡する時には「Read Me」書類ファイルを必ず添付して下さい。
+5. 許可なくCD-ROMフォント集等へファイルを収載しないで下さい。
+6. ウェブページでファイルをリンクとして公開しないで下さい。
+7. "YOWorks Web Site"へのリンクを公開することは歓迎します。
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+YOFonts FREE SAMPLERはフリーウェアです。
+
+電子メール：info@yoworks.com
+"YOWorks Web Site" URL：http://www.yoworks.com/
+
+どうも有難うございました。
+YOFonts FREE SAMPLERを楽しんで頂ければ幸いです。
+
+========================================================================
+
+YOFonts designed by Yasuhiro YAMAOKA.
+Copyright (C) 1997-1999 Yasuhiro YAMAOKA.
+All rights reserved.
